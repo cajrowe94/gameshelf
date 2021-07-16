@@ -1,0 +1,9 @@
+// main wrapper for the entire site
+#site-wrapper {
+	background: $blue-teal-left-right;
+	height: 100vh;
+
+	@media #{$for-phone} {
+		background: $blue-teal-top-bottom;
+	}
+}

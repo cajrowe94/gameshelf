@@ -5,7 +5,7 @@ import Footer from './js/components/Footer';
 
 function App() {
   return (
-    <div>
+    <div id="site-wrapper">
       <Header />
       <Main />
       <Footer />

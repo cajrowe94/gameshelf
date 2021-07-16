@@ -13,6 +13,9 @@ $teal-50: rgba(100, 255, 218, 0.5);
 $lavendar-light: #CCD6F6;
 $lavendar-light-35: rgba(204, 214, 246, 0.35);
 
+$white: #FFFFFF;
+$black: #000000;
+
 // background gradients
 $blue-teal-left-right: linear-gradient(270deg, #13595E 0%, #0A172C 100%);
 $blue-teal-top-bottom: linear-gradient(180deg, #0A172C 0%, #13595E 100%);
@@ -22,3 +25,20 @@ $teal-top-mid-bottom: linear-gradient(180deg, rgba(100, 255, 218, 0) 0%, #64FFDA
 $drop-shadow-10: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
 $drop-shadow-25: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 $drop-shadow-50: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+
+// breakpoints
+// https://gist.github.com/nurbek-ab/efc407ec15f77b56c8cb9cff6787802a
+$for-phone: "screen and (max-width: 44.9375rem)"; // < 720
+$for-tablet-only: "screen and (min-width: 45rem) and (max-width: 74.9375rem)"; // > 720 < 1199
+$for-tablet-portrait-only: "screen and (min-width: 45rem) and (max-width: 56.1875rem)"; // > 720 < 900
+$for-tablet-portrait-up: "screen and (min-width: 45rem)"; // > 720
+$for-tablet-landscape-up: "screen and (min-width: 56.25rem)"; // > 900
+$for-desktop-up: "screen and (min-width: 75rem)"; // > 1200
+$for-big-desktop-up: "screen and (min-width: 112.5rem)"; // > 1800
+
+
+// functions
+@function toRem($value) {
+    $remValue: ($value / 16) + rem; 
+    @return $remValue;
+}

@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: $white;
+}
+
+
+// heading styles
+
+h1 {
+	font-size: toRem(36);
+
+	@media #{$for-phone} {
+		font-size: toRem(24);
+	}
+}
