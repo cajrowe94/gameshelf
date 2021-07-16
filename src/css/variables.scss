@@ -1,0 +1,24 @@
+// colors
+$blue-heavy: #0A192F;
+$blue-medium: #112240;
+$blue-light: #182C4F;
+
+$gray-heavy: #3C4044;
+
+$teal: #64FFDA;
+$teal-10: rgba(100, 255, 218, 0.1);
+$teal-20: rgba(100, 255, 218, 0.2);
+$teal-50: rgba(100, 255, 218, 0.5);
+
+$lavendar-light: #CCD6F6;
+$lavendar-light-35: rgba(204, 214, 246, 0.35);
+
+// background gradients
+$blue-teal-left-right: linear-gradient(270deg, #13595E 0%, #0A172C 100%);
+$blue-teal-top-bottom: linear-gradient(180deg, #0A172C 0%, #13595E 100%);
+$teal-top-mid-bottom: linear-gradient(180deg, rgba(100, 255, 218, 0) 0%, #64FFDA 48.96%, rgba(100, 255, 218, 0) 100%);
+
+// shadows
+$drop-shadow-10: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+$drop-shadow-25: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+$drop-shadow-50: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
